@@ -3,7 +3,7 @@ pipeline {
         stages {
           stage('continuos download') {
               steps {
-            git 'https://github.com/Premvikash/java-maven-sample-war.git'
+                 https://github.com/Premvikash/java-maven-sample-war.git
             }
         }
                stage('continuos build') {
